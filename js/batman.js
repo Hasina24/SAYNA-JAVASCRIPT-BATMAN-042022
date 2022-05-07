@@ -30,5 +30,37 @@ for (let i = 0; i < image.length; i++) {
 //les icônes à côté doivent défiler en suivant le scroll de la page.
 
 //tous les titres du site apparaissent avec un fade in et démarrent de gauche à droite.
+$(document).ready(function() {
+    $('#load').FadeIn();
+    $('#load').animate({
+        left: "500px",
+    }, "slow");
+});
+
+$(document).ready(function() {
+    $(window).scroll(function() {
+        let scroll = $(window).scrollTop();
+        $('#batman1').css('top', scroll + 'px')
+        $('#batman1').animate({
+            top: "400px",
+        }, "scroll")
+    })
+})
+
 //sous-titres, apparaissent progressivement(opacité de 0% à 100%).
+$(document).ready(function() {
+    $('#load').FadeIn();
+    $('#load').animate({
+        left: "500px",
+    }, "slow");
+});
+
+let ready = document.getElementsByClassName('ready')
+
+
+for (let i = 0; i < ready.length; i++) {
+    ready[i].addEventListener('mouseover', () => {
+        ready[i].style.opacity = '0' - '1';
+    })
+}
 //Les lignes discrètes sont présentes pour tracer les contours de la page(espace sur la largeur:102px de chaque côté; espace au niveau du header:132px de la bordure haute)
