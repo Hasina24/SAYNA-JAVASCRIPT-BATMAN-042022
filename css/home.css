@@ -1,0 +1,166 @@
+/*La partie top de la page*/
+
+#menu {
+    background-image: url(../Assets/Illustrations/Home/Bathome1.png);
+    padding-bottom: 35%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#menu a {
+    color: #FFFFFF;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Rajdhani';
+}
+
+#menu img {
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 0%;
+    padding-left: 45%;
+    color: #FFFFFF;
+    font-family: 'Space Grotesk';
+}
+
+.btn {
+    font-family: 'Radjhani';
+    color: #FFFFFF;
+    border: 1px solid #c4c4c4;
+    background-color: #c4c4c46b;
+    margin-top: 5%;
+    text-align: center;
+    padding: 1% 3%;
+}
+
+.row img {
+    float: right;
+    height: fit-content;
+    width: fit-content;
+}
+
+
+/*Le corps de la page*/
+
+main {
+    background-color: #000000;
+}
+
+main h2 {
+    margin-top: 15%;
+    font-family: 'Space Grotesk';
+    color: #FFFFFF;
+    margin-left: 7%;
+}
+
+main p {
+    margin-left: -38%;
+    text-align: left;
+    font-family: 'Space Grotesk';
+    color: #FFFFFF;
+}
+
+main div img {
+    margin: 4% 0%;
+}
+
+.bloc {
+    margin-left: -7%;
+    padding: 2% 8% 10% 4%;
+    border: 2px solid #19587d86;
+    background-color: #19587d86;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+}
+
+.bloc h5 {
+    color: #FFFFFF;
+    font-family: 'Space Grotesk';
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+.bloc h3 {
+    color: #FFFFFF;
+    font-family: 'Space Grotesk';
+    font-size: 17px;
+    opacity: 0.7;
+}
+
+.bloc h4 {
+    color: #FFFFFF;
+    font-family: 'Space Grotesk';
+    font-size: 17.5px;
+}
+
+.bloc p {
+    color: #FFFFFF;
+    font-family: 'Space Grotesk';
+    font-size: 10px;
+    margin-top: 1%;
+    margin-bottom: 0%;
+}
+
+form {
+    background-color: #19587da9;
+}
+
+form h1 {
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'Rajdhani';
+}
+
+form h2 {
+    padding-left: 8%;
+    color: #FFFFFF;
+    text-align: left;
+    font-family: 'Space Grotesk';
+}
+
+form input {
+    text-decoration: underline;
+    text-decoration-color: #FFFFFF;
+    font-family: 'Space Grotesk';
+}
+
+form p {
+    opacity: 0.6;
+    margin-left: -38%;
+    color: #FFFFFF;
+    text-align: left;
+    font-family: 'Space Grotesk';
+}
+
+form .btn {
+    background: none;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Rajdhani';
+}
+
+footer {
+    background-color: #000000;
+}
+
+footer img {
+    margin-top: 2%;
+}
+
+footer p {
+    margin-bottom: 0;
+    font-family: 'Space Grotesk';
+    font-size: small;
+}
+
+footer i {
+    height: 15%;
+    margin-left: 25%;
+    justify-content: end;
+}
